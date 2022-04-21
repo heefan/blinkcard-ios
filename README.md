@@ -1,5 +1,5 @@
 <p align="center" >
-  <img src="https://raw.githubusercontent.com/wiki/blinkid/blinkid-ios/Images/logo-microblink.png" alt="MicroBlink" title="MicroBlink">
+  <img src="https://raw.githubusercontent.com/wiki/blinkid/blinkid-ios/Images/logo-microblink.png" alt="Microblink" title="Microblink">
 </p>
 
 [![CocoaPods](https://img.shields.io/cocoapods/p/MBBlinkCard.svg)]()
@@ -50,7 +50,7 @@ You can start by watching our [step-by-step tutorial](https://vimeo.com/54257536
 
 # <a name="requirements"></a> Requirements
 
-SDK package contains BlinkCard framework and one or more sample apps which demonstrate framework integration. The framework can be deployed in **iOS 9.0 or later**.
+SDK package contains BlinkCard framework and one or more sample apps which demonstrate framework integration. The framework can be deployed in **iOS 11.0 or later**.
 
 SDK performs significantly better when the images obtained from the camera are focused. Because of that, the SDK can have lower performance on iPad 2 and iPod Touch 4th gen devices, which [don't have camera with autofocus](http://www.adweek.com/socialtimes/ipad-2-rear-camera-has-tap-for-auto-exposure-not-auto-focus/12536). 
 # <a name="quick-start"></a> Quick Start
@@ -86,7 +86,7 @@ pod init
 - Copy and paste the following lines into the TextEdit window:
 
 ```ruby
-platform :ios, '9.0'
+platform :ios, '11.0'
 target 'Your-App-Name' do
     pod 'MBBlinkCard', '~> 2.5.1'
 end
